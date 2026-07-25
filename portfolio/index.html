@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JJ — Portfolio</title>
+  
+  <!-- Google Fonts: Space Grotesk & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Interactive Background Canvas -->
+  <canvas id="cyber-canvas"></canvas>
+
+  <!-- Overlay Content Container -->
+  <div class="content-wrapper">
+    
+    <!-- Navigation / Header -->
+    <header class="navbar">
+      <div class="logo-container">
+        <!-- JJ Monogram Logo -->
+        <svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="48" height="48" rx="12" fill="#2563EB"/>
+          <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" letter-spacing="-1.5">JJ</text>
+        </svg>
+        <span class="brand-name">Portfolio</span>
+      </div>
+
+      <!-- Status Tag -->
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        <span class="status-text">Available for work</span>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="hero">
+      <h1 class="hero-title">Crafting Clean & Modern Digital Experiences</h1>
+      <p class="hero-subtitle">
+        Front-end engineer & designer focusing on interactive web, high performance, and human-centered systems.
+      </p>
+
+      <!-- Featured Projects Grid -->
+      <section class="projects-section">
+        <h2 class="section-title">Selected Projects</h2>
+
+        <div class="projects-grid">
+          <!-- Card 1 -->
+          <article class="project-card">
+            <div class="card-header">
+              <span class="project-tag">Web Application</span>
+              <a href="#" class="project-link">View &rarr;</a>
+            </div>
+            <h3>Interactive Canvas Engine</h3>
+            <p>Low-CPU canvas particles and ripple effects built with vanilla JavaScript and requestAnimationFrame.</p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="project-card">
+            <div class="card-header">
+              <span class="project-tag">Design System</span>
+              <a href="#" class="project-link">View &rarr;</a>
+            </div>
+            <h3>Accessible UI Framework</h3>
+            <p>A clean design system leveraging modern typography, CSS variables, and modern web standards.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
